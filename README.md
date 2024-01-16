@@ -71,7 +71,9 @@ weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_
 * SleepDay and WeightLogInfo dataframes:
 
   - Time data need to be converted to date time format and split to date and time.
-    
+
+
+### Clean and transform data    
     
 ```r
 -- Convert data to make date and time columns consistency
@@ -94,6 +96,8 @@ head(sleep)
 
 head(weight)
 ```
+
+
 ```r
 
 -- Rename,remove N/A and remove duplications
