@@ -68,8 +68,9 @@ weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_
 
   - Time data need to be converted to date time format and split to date and time.
     
+    
 
-### Convert data to make date and time columns consistency
+-- Convert data to make date and time columns consistency
 
 activity$ActivityDate <- as.Date(activity$ActivityDate, "%m/%d/%Y")
 
@@ -80,7 +81,7 @@ sleep$SleepDay <- as.Date(sleep$SleepDay, "%m/%d/%Y")
 weight$IsManualReport <- as.logical(weight$IsManualReport)
 
 
-* Make sure of the consistency of date columns
+-- Make sure of the consistency of date columns
 
 head(activity)
 
@@ -88,3 +89,60 @@ head(sleep)
 
 head(weight)
 
+
+-- Rename,remove N/A and remove duplications
+
+activity <- activity %>%
+  distinct() %>%
+  drop_na()
+
+sleep <- sleep %>%
+  distinct() %>%
+  drop_na()
+
+weight <- weight %>%
+  distinct() %>%
+  drop_na()
+
+-- Verifying the duplication has been removed
+
+sum(duplicated(activity))
+sum(duplicated(sleep))
+sum(duplicated(weight))
+
+
+-- To make sure that column names are unique and consistent to avoid any errors
+
+clean_names(activity)
+clean_names(sleep)
+clean_names(weight)
+
+
+-- Delete dublicate column: TrackerDistance column (It has the same values as TotalDistance column)
+
+activity = select(activity, -5) 
+colnames(activity)
+
+
+-- To check for how may unique users or Fitbit participants on each dataframe
+
+n_distinct(activity$Id)
+n_distinct(sleep$Id)
+n_distinct(weight$Id)
+
+
+-- Summary statistics, exempt the weight dataframe because it does not have enough unigue users for analysis
+
+activity %>%
+    select(TotalSteps, TotalDistance, SedentaryMinutes) %>%
+    summary()
+
+sleep %>%
+    select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+    summary()
+
+
+-- Combine two dataframes into one (activity and sleep dataframes)
+
+newdata = merge(activity, sleep, by="Id")
+summary(newdata)
