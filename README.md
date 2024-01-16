@@ -96,6 +96,10 @@ head(sleep)
 
 head(weight)
 ```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/9f4f649c-66ea-4bd4-9db1-9266da251c71)
+
+
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/a74c2d7b-ce6d-47a5-b1cd-c0624384f82f)
 
 
 ```r
@@ -218,9 +222,23 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 ### Insights and suggestions
 
+- Fitbit users are quite active, they walk around 7500 steps a day, which makes around 5.3 km. Most of the distance is covered by light activities.
+Fitbit users have mostly average weight and average BMI (according to Wikipedia, see reference 2)
+Fitbit users eat well and consume enough calories.
+Fitbit users sleep on average 7 hours per day, also quite a healthy value.
+ 
+- The average steps of Fitbit users is around 8,000 steps each day and the overall steps remained steady throughout a whole month (4/12/2016 - 5/12/2016).
+- There was a few days that Fitbit users stayed very active by walking over 20,000 steps! 
+- Although, the average total steps per day of the user is quite high, but there are days that users stay sedentary for as high as 1,440 minuets a day which around 24 hours. The avarage of sedentary is 800 minutes or around 13 hours a day. 
+- The Fitbit users is likely to stay sedentary towards the end of month cycle, seemed like they lose motivation or interest of being active.
+- The users's sleep patterns are quite varies, the least minutes sleep is 58 and the max hours of sleep is 796 minutes or around 
+According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
+- 
+
 ![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
 ### References and Links
+Medical News Today - https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits
 Photos from Bellabeat website
 Photo https://www.wordfestival.org/suggestions
 
