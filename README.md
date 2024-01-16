@@ -146,3 +146,52 @@ sleep %>%
 
 newdata = merge(activity, sleep, by="Id")
 summary(newdata)
+
+
+-- Create Data Visualization
+
+ggplot(data = merged_data, aes(x = TotalSteps))+
+    geom_histogram(bins = 20, color = "white", fill = "blue") +
+    xlim(0, 25000)+
+    labs(title = "Sample of Total Steps from Fitbit Users")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
+​
+ggplot(data = merged_data, aes(ActivityDate, TotalSteps))+
+    geom_point(size = 1)+
+    geom_line(color = "blue")+
+    labs(title = "Total Steps From Fitbit Users over Time")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
+​
+​
+ggplot(data = merged_data, aes(x = TotalMinutesAsleep))+
+    geom_histogram(bins = 20, color = "white", fill = "lightblue")+
+    xlim(0, 950)+
+    labs(title = "Sample of Total Minutes Asleep from Fitbit Users")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
+​
+ggplot(data = merged_data, aes(SleepDay, TotalMinutesAsleep))+
+    geom_point(size = 2)+
+    geom_line(color = "lightblue")+
+    labs(title = "Total Minutes Asleep From Fitbit Users Over Time")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
+​
+​
+ggplot(data = merged_data, aes(x = SedentaryMinutes))+
+    geom_histogram(bins = 20, color = "white", fill = "royalblue")+
+    xlim(0, 1600)+
+    labs(title = "Sample of Total Minutes Sedentary from Fitbit Users")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
+    
+
+ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
+    geom_point(size = 2)+
+    geom_line(color = "royalblue")+
+    labs(title = "Total Minutes Sedentary from Fitbit Users over Time")+
+    theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))  
+
+
+Insights and suggestions
+
+References and Links
+Photos from Bellabeat website
+Photo https://www.wordfestival.org/suggestions
