@@ -29,6 +29,7 @@ R Programing Language - Data Cleaning, Data Analysis, and Data visualization
 
 ### Installing and Loading packages and libraries
 
+```r
 library(tidyverse)
 library(lubridate)
 library(janitor)
@@ -36,16 +37,17 @@ library(dplyr)
 library(skimr)
 library(ggplot2)
 library(tidyr)
-
+```
 
 ### Import and name the dataframes
 
+```r
 activity <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
 
 sleep <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
 
 weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
-
+```
 
 ### Key Takeaways from review the dataframes
 
@@ -175,8 +177,6 @@ ggplot(data = merged_data, aes(ActivityDate, TotalSteps))+
     geom_line(color = "blue")+
     labs(title = "Total Steps From Fitbit Users over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
-​
-​![p2](https://github.com/NanManee/Bellabeat-Project/assets/156528525/186b06ca-0051-4f0d-97c8-ba34ee70887a)
 
 ggplot(data = merged_data, aes(x = TotalMinutesAsleep))+
     geom_histogram(bins = 20, color = "white", fill = "lightblue")+
@@ -189,8 +189,6 @@ ggplot(data = merged_data, aes(SleepDay, TotalMinutesAsleep))+
     geom_line(color = "lightblue")+
     labs(title = "Total Minutes Asleep From Fitbit Users Over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
-​
-​![p3](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d06e3114-dcb1-434d-9ee4-e7740e396ab3)
 
 ggplot(data = merged_data, aes(x = SedentaryMinutes))+
     geom_histogram(bins = 20, color = "white", fill = "royalblue")+
@@ -204,15 +202,24 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
     labs(title = "Total Minutes Sedentary from Fitbit Users over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))  
 ```
+
+​![p2](https://github.com/NanManee/Bellabeat-Project/assets/156528525/186b06ca-0051-4f0d-97c8-ba34ee70887a)
+
+​![p3](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d06e3114-dcb1-434d-9ee4-e7740e396ab3)
+
 ![p4](https://github.com/NanManee/Bellabeat-Project/assets/156528525/258f2f3d-993a-41ec-9247-d4e7bb013fcf)
 
 
+
+
+### Insights and suggestions
+
 ![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
-Insights and suggestions
-![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/a0d7304d-9dca-4024-bb66-ead178d90d62)
-
-References and Links
+### References and Links
 Photos from Bellabeat website
 Photo https://www.wordfestival.org/suggestions
+
+
+
 ![Bellabeat11](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d86662c0-675b-4de7-b14b-f9865bf056f8)
