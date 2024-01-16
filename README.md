@@ -1,1 +1,3 @@
-# Bellabeat-Project
+## Bellabeat_Project
+
+### Introduction
