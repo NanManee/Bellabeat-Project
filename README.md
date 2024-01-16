@@ -69,7 +69,7 @@ weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_
   - Time data need to be converted to date time format and split to date and time.
     
     
-
+```r
 -- Convert data to make date and time columns consistency
 
 activity$ActivityDate <- as.Date(activity$ActivityDate, "%m/%d/%Y")
@@ -79,8 +79,9 @@ weight$Date <- as.Date(weight$Date, "%m/%d/%Y")
 sleep$SleepDay <- as.Date(sleep$SleepDay, "%m/%d/%Y")
 
 weight$IsManualReport <- as.logical(weight$IsManualReport)
+```
 
-
+```r
 -- Make sure of the consistency of date columns
 
 head(activity)
@@ -88,7 +89,8 @@ head(activity)
 head(sleep)
 
 head(weight)
-
+```
+```r
 
 -- Rename,remove N/A and remove duplications
 
@@ -103,34 +105,41 @@ sleep <- sleep %>%
 weight <- weight %>%
   distinct() %>%
   drop_na()
+```
 
+```r
 -- Verifying the duplication has been removed
 
 sum(duplicated(activity))
 sum(duplicated(sleep))
 sum(duplicated(weight))
+```
 
-
+```r
 -- To make sure that column names are unique and consistent to avoid any errors
 
 clean_names(activity)
 clean_names(sleep)
 clean_names(weight)
+```
 
+```r
 
 -- Delete dublicate column: TrackerDistance column (It has the same values as TotalDistance column)
 
 activity = select(activity, -5) 
 colnames(activity)
+```
 
-
+```r
 -- To check for how may unique users or Fitbit participants on each dataframe
 
 n_distinct(activity$Id)
 n_distinct(sleep$Id)
 n_distinct(weight$Id)
+```
 
-
+```r
 -- Summary statistics, exempt the weight dataframe because it does not have enough unigue users for analysis
 
 activity %>%
@@ -140,14 +149,16 @@ activity %>%
 sleep %>%
     select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
     summary()
+```
 
-
+```r
 -- Combine two dataframes into one (activity and sleep dataframes)
 
-newdata = merge(activity, sleep, by="Id")
-summary(newdata)
+merged_data = merge(activity, sleep, by="Id")
+summary(merged_data)
+```
 
-
+```r
 -- Create Data Visualization
 
 ggplot(data = merged_data, aes(x = TotalSteps))+
@@ -188,7 +199,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
     geom_line(color = "royalblue")+
     labs(title = "Total Minutes Sedentary from Fitbit Users over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))  
-
+```
 
 Insights and suggestions
 
