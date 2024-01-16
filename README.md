@@ -1,10 +1,12 @@
 # Bellabeat_Project
 
 ### Introduction
+![Bellabeat1](https://github.com/NanManee/Bellabeat-Project/assets/156528525/3f151db0-5230-4606-9327-4052ef684a97)
 
 ### About Company
 
 A high-tech manufacturer that focuses on creating health and wellness products for women. They are known for their smart jewelry and accessories that track various aspects of women’s health, including activity levels, stress levels, menstrual cycles and sleep patterns. Bellabeat aims to empower women to take control of their well-being by providing them with insights into their health through stylish and wearable technology [Click Here](https://bellabeat.com)
+![Bellabeat2](https://github.com/NanManee/Bellabeat-Project/assets/156528525/55cda1f2-15b8-4749-b368-fa75794fba07)
 
 ### Business Task
 
@@ -157,6 +159,7 @@ sleep %>%
 merged_data = merge(activity, sleep, by="Id")
 summary(merged_data)
 ```
+![p1](https://github.com/NanManee/Bellabeat-Project/assets/156528525/fff22921-1282-482e-a58d-a87d91c8fc97)
 
 ```r
 -- Create Data Visualization
@@ -173,7 +176,8 @@ ggplot(data = merged_data, aes(ActivityDate, TotalSteps))+
     labs(title = "Total Steps From Fitbit Users over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
 ​
-​
+​![p2](https://github.com/NanManee/Bellabeat-Project/assets/156528525/186b06ca-0051-4f0d-97c8-ba34ee70887a)
+
 ggplot(data = merged_data, aes(x = TotalMinutesAsleep))+
     geom_histogram(bins = 20, color = "white", fill = "lightblue")+
     xlim(0, 950)+
@@ -186,23 +190,29 @@ ggplot(data = merged_data, aes(SleepDay, TotalMinutesAsleep))+
     labs(title = "Total Minutes Asleep From Fitbit Users Over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
 ​
-​
+​![p3](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d06e3114-dcb1-434d-9ee4-e7740e396ab3)
+
 ggplot(data = merged_data, aes(x = SedentaryMinutes))+
     geom_histogram(bins = 20, color = "white", fill = "royalblue")+
     xlim(0, 1600)+
     labs(title = "Sample of Total Minutes Sedentary from Fitbit Users")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))
     
-
 ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
     geom_point(size = 2)+
     geom_line(color = "royalblue")+
     labs(title = "Total Minutes Sedentary from Fitbit Users over Time")+
     theme(plot.title = element_text(hjust = 0.5, size = 15, face = "bold"))  
 ```
+![p4](https://github.com/NanManee/Bellabeat-Project/assets/156528525/258f2f3d-993a-41ec-9247-d4e7bb013fcf)
+
+
+![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
 Insights and suggestions
+![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/a0d7304d-9dca-4024-bb66-ead178d90d62)
 
 References and Links
 Photos from Bellabeat website
 Photo https://www.wordfestival.org/suggestions
+![Bellabeat11](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d86662c0-675b-4de7-b14b-f9865bf056f8)
