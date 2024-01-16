@@ -73,7 +73,7 @@ weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_
   - Time data need to be converted to date time format and split to date and time.
 
 
-### Clean and transform data    
+### Prepare, Clean and transform data    
     
 ```r
 -- Convert data to make date and time columns consistency
@@ -171,6 +171,12 @@ summary(merged_data)
 ```
 ![p1](https://github.com/NanManee/Bellabeat-Project/assets/156528525/fff22921-1282-482e-a58d-a87d91c8fc97)
 
+### Limitations
+
+- This ia a 2016 Fitbit dataset which is not up to date. It's chalenging to give a beneficial insights and recommendations.
+- Many file tables don't have enough data for the analysis.
+- 
+
 ```r
 -- Create Data Visualization
 
@@ -220,19 +226,35 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 
 
-### Insights and suggestions
+### Insights
 
-- Fitbit users are quite active, they walk around 7500 steps a day, which makes around 5.3 km. Most of the distance is covered by light activities.
-Fitbit users have mostly average weight and average BMI (according to Wikipedia, see reference 2)
-Fitbit users eat well and consume enough calories.
-Fitbit users sleep on average 7 hours per day, also quite a healthy value.
- 
-- The average steps of Fitbit users is around 8,000 steps each day and the overall steps remained steady throughout a whole month (4/12/2016 - 5/12/2016).
-- There was a few days that Fitbit users stayed very active by walking over 20,000 steps! 
-- Although, the average total steps per day of the user is quite high, but there are days that users stay sedentary for as high as 1,440 minuets a day which around 24 hours. The avarage of sedentary is 800 minutes or around 13 hours a day. 
-- The Fitbit users is likely to stay sedentary towards the end of month cycle, seemed like they lose motivation or interest of being active.
-- The users's sleep patterns are quite varies, the least minutes sleep is 58 and the max hours of sleep is 796 minutes or around 
-According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
+- The average number of steps for Fitbit users is around 8,000 each day, and the overall step count remained steady throughout an entire month (4/12/2016 - 5/12/2016).
+- There were a few days when Fitbit users were very active, walking over 20,000 steps!
+- Although the average total steps per day for users are quite high, there are days when users remain sedentary for as long as 1,440 minutes, which is around 24 hours. The average sedentary time is 800 minutes, or around 13 hours a day.
+- Fitbit users are likely to become sedentary towards the end of the monthly cycle, as it seems they lose motivation or interest in being active.
+- The users' sleep patterns vary, with the shortest sleep duration at 58 minutes and the longest at 13 hours.
+- The majority of Fitbit users have an average sleep duration of 419 minutes, or around 7 hours per night.
+
+### suggestions
+
+- I would recommend to Bellabeat to update friendly user Bellabeat app to connect with the users. Giving great tips about helthy nutrition food, exercise tips,
+- App that help users plan for a log term goal health and breakdown for every three month or a moth goal depending on what are the users focus on and what are priority in thier life. For example, there's a feature and funtion for users who want to lose weight set thier  a year goal for losie 30
+- 
+Setting a healthy and realistic weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds (approximately 0.5-1 kg) per week. This is considered a safe and sustainable rate. Therefore, for a year-long goal:
+
+Conservative Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
+
+Moderate Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
+
+Aggressive Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
+
+
+
+It's important to note that individual factors, such as starting weight, metabolism, and overall health, can influence weight loss. Always consult with a healthcare professional or a registered dietitian before starting any weight loss plan to ensure it is safe and tailored to your specific needs. Additionally, focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
+- 
+- As today the year of 2024, I believe that Bellabeat has already improved it's product features to the best yet.
+- 
+- According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
 - 
 
 ![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
