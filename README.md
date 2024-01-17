@@ -220,8 +220,6 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 
 
-![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
-
 
 ### Limitations
 
@@ -262,6 +260,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
   - Level 3 Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
 Note: Individual factors, such as starting weight and overall health, can influence weight loss. Individuals should consult with a doctor before starting any weight loss plan to ensure it is safe. Focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
 
+![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
 ### Additional Recomendations
 
