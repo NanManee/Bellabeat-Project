@@ -20,7 +20,7 @@ Analyze smart device data to gain insight into how consumers are using their non
 
 ### Data Sources
 
-In this study, we focus on how consumers use non-Bellabeat smart devices. Kaggle Data Set: FitBit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius): This data set contains personal fitness tracker from thirty fitbit users. Thirty eligible Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
+In this study, we focus on how consumers use non-Bellabeat smart devices. Kaggle Data Set: FitBit Fitness Tracker Data (CC0: Public Domain, dataset made available through Mobius): This data set contains personal fitness tracker from thirty fitbit users, a distributed survey via Amazon Mechanical Turk. The Fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate, and sleep monitoring. It includes information about daily activity, steps, and heart rate that can be used to explore users’ habits.
 
 ### Tools 
 
@@ -224,7 +224,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 
 
-
+![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 ### Insights
 
 - The average number of steps for Fitbit users is around 8,000 each day, and the overall step count remained steady throughout an entire month (4/12/2016 - 5/12/2016).
@@ -234,37 +234,42 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 - The users' sleep patterns vary, with the shortest sleep duration at 58 minutes and the longest at 13 hours.
 - The majority of Fitbit users have an average sleep duration of 419 minutes, or around 7 hours per night.
 
-### suggestions
-- I had a chance to look up the reviews from the existing Bellabeat customers on Amazon website. It shows 1,758 global ratings with 44% customers love Bellabeat products and give it 5 stars, about 10% customers give it 4,3,and 2 stars. 21% customers are not happy with the products and give it 1 star [Click Here](https://www.amazon.com/Bellabeat-Urban-Jewelry-Health-Tracker/dp/B01LB4EUGS/ref=sr_1_1?crid=E6WXJ8R3CR9F&keywords=bellabeat&qid=1705504792&sprefix=bellabe%2Caps%2C104&sr=8-1&th=1) This is only one souce from Amazon, so it cannot replesent as a whole. This is just some ideas that Bellabeat may need to evaluate the product quality.  improve and ensure the future happy customers.
+### Recomendations
 
-- 
-- I would recommend to Bellabeat to update friendly user Bellabeat app to connect with the users. Giving great tips about helthy nutrition food, exercise tips,
-- App that help users plan for a log term goal health and breakdown for every three month or a moth goal depending on what are the users focus on and what are priority in thier life. For example, there's a feature and funtion for users who want to lose weight set thier  a year goal for losie 30
-- 
-Setting a healthy and realistic weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds (approximately 0.5-1 kg) per week. This is considered a safe and sustainable rate. Therefore, for a year-long goal:
+- Bellabeat to enhance and update more features on the app. It's important to create a user friendly app to connect with the users.
+- Encouraging the user to stay active with the device's remider feature. Instruc the users of helth benefits of stay active. According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of 
+  dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
+- Creating the app that let the users connect and share thier progress on thier socia media with thier friends. This would help them to inspiring each other to stay active.
+- Creating the app that give great tips about healthy nutrition food, exercise tips, positive motto or story, medition level progresstion.
+- Create more theme on Bellabeat app, so users can enjoy using the app and there are many theame to select from. 
+- App that help users plan for a log term goal health and breakdown for every three months or a month goal depending on what are the users focus on and what are priority in thier life. Setting a healthy and realistic   
+    weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds per week. For a year-long goal:
+    - Level 1 Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
+    - Level 2 Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
+    - Level 3 Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
+    Note: It's important for that individual factors, such as starting weight, overall health, can influence weight loss and they should with a doctor before starting any weight loss plan to ensure it is safe and
+    focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
 
-Conservative Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
 
-Moderate Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
+### Additional Recomendations
 
-Aggressive Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
+- I had a chance to look up the reviews on Leaf, smart jewelry from the existing Bellabeat customers on the Amazon website. It shows 1,758 global ratings and an overall rating of 3.5 stars. Forty-four percent of customers love Leaf and give them 5 stars, while about 10% of customers give it 4, 3, and 2 stars. Over 20% of customers are not happy with the products and give them 1 star. Customers mentioned that the mobile app, sleep tracking, accuracy, and especially versatility features need to be improved. I understand that this is only one source from Amazon.com and it cannot represent the whole. Amazon has a great source of data, and Amazon customers trust the reviews, impacting their buying decisions. If Bellabeat can improve its products and decrease the percentage of 1 - 3 stars reviews, it would gain trust from Amazon customers. I suggest Bellabeat focus on further studies to evaluate the products, improve quality, and gain trust from new customers.
 
+- Future hypoallergenic products to consider include smart rings, smart earrings, and a watch version of the Ivy bracelet. As of now, BioSensive Technologies stands out for their product; Ear-O-Smart. It tracks active heart rate, active minutes, and calorie burn, but it does not track sleep. Another company, like Oura Ring, creates a smart ring that tracks heart rate, active minutes, women's health, and additionally, it tracks blood oxygen sensing (SpO2) when asleep and has illness detection to monitor body temperature and heart rate so users can tell when they may be getting sick sooner.
 
+- Opening new markets with a watch version of the Ivy bracelet to target new groups of customers, such as working women or young teen girls who want to look pretty with styled fitness jewelry that matches their outfits on a daily basis. It also provides choices for Bellabeat customers to choose between the Ivy bracelet or Ivy watch."
 
-It's important to note that individual factors, such as starting weight, metabolism, and overall health, can influence weight loss. Always consult with a healthcare professional or a registered dietitian before starting any weight loss plan to ensure it is safe and tailored to your specific needs. Additionally, focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
-- 
-- As today the year of 2024, I believe that Bellabeat has already improved it's product features to the best yet.
-- 
-- According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
-- 
+- Bellabeat has strong ideas of creating unique, beautiful, and hypoallergenic health tracker products that focus on women. I am positive Bellabeat has endless capabilities of creating new products that are beautiful and functional at the same time. I hope this study is helpful, thank you for your time reviewing.
 
-![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
 ### References and Links
-Medical News Today - https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits
+
+www.Amazon.com
+https://shopjoule.com/
+https://ouraring.com/
 Photos from Bellabeat website
 Photo https://www.wordfestival.org/suggestions
-
+https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits
 
 
 ![Bellabeat11](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d86662c0-675b-4de7-b14b-f9865bf056f8)
