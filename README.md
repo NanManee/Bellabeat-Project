@@ -171,10 +171,6 @@ summary(merged_data)
 ```
 ![p1](https://github.com/NanManee/Bellabeat-Project/assets/156528525/fff22921-1282-482e-a58d-a87d91c8fc97)
 
-### Limitations
-
-- This ia a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
-- Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
 
 ```r
 -- Create Data Visualization
@@ -225,6 +221,13 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 
 ![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
+
+
+### Limitations
+
+- Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
+- This ia a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
+
 ### Insights
 
 - The average number of steps for Fitbit users is around 8,000 each day, and the overall step count remained steady throughout an entire month (4/12/2016 - 5/12/2016).
@@ -236,19 +239,21 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 ### Recomendations
 
-- Bellabeat to enhance and update more features on the app. It's important to create a user friendly app to connect with the users.
-- Encouraging the user to stay active with the device's remider feature. Instruc the users of helth benefits of stay active. According to Medical News Today, walking at 9,000 steps a day is likely to reduce a chance of 
-  dying early by 60%. For people walking 7,000 steps will reduce the chances of cardiovascular disease by 51%. 
-- Creating the app that let the users connect and share thier progress on thier socia media with thier friends. This would help them to inspiring each other to stay active.
-- Creating the app that give great tips about healthy nutrition food, exercise tips, positive motto or story, medition level progresstion.
-- Create more theme on Bellabeat app, so users can enjoy using the app and there are many theame to select from. 
-- App that help users plan for a log term goal health and breakdown for every three months or a month goal depending on what are the users focus on and what are priority in thier life. Setting a healthy and realistic   
-    weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds per week. For a year-long goal:
-    - Level 1 Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
-    - Level 2 Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
-    - Level 3 Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
-    Note: It's important for that individual factors, such as starting weight, overall health, can influence weight loss and they should with a doctor before starting any weight loss plan to ensure it is safe and
-    focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
+- Bellabeat aims to enhance and update more features on the app. It's important to create a user-friendly app to connect with users.
+- Encouraging users to stay active with the device's reminder feature. Instructing users about the health benefits of staying active is crucial. According to Medical News Today, walking 9,000 steps a day is likely to reduce the chance of dying early by 60%. For people walking 7,000 steps, the chances of cardiovascular disease are reduced by 51%.
+- Creating an app that lets users connect and share their progress on their social media with friends. This would help inspire each other to stay active.
+- Creating an app that provides great tips about healthy nutrition, exercise tips, positive mottos, or stories, and meditation progression.
+- Creating more themes on the Bellabeat app so that users can enjoy using the app, with many themes to select from.
+- An app that instructs and encourages users to get enough sleep. According to VeryWellHealth.com, not getting enough sleep is associated with depression, heart disease, obesity, weight gain, and other health issues. The recommended amount of sleep by age is as follows:
+  - Teenagers (14 to 17 years): Should average eight to 10 hours per day
+  - Younger adults (18 to 25 years old): Should average seven to nine hours per day
+  - Adults (26 to 64): Should average seven to nine hours per day
+  - Older adults (age 65 and over): Should average seven to eight hours per day
+- An app that helps users plan for long-term health goals and breaks down goals for every three months or a monthly goal, depending on the user's focus and priorities in their life. Setting a healthy and realistic weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds per week. For a year-long goal:
+  - Level 1 Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
+  - Level 2 Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
+  - Level 3 Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
+Note: Individual factors, such as starting weight and overall health, can influence weight loss. Individuals should consult with a doctor before starting any weight loss plan to ensure it is safe. Focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
 
 
 ### Additional Recomendations
@@ -264,12 +269,13 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 ### References and Links
 
-www.Amazon.com
-https://shopjoule.com/
 https://ouraring.com/
+https://shopjoule.com/
 Photos from Bellabeat website
 Photo https://www.wordfestival.org/suggestions
+https://www.verywellhealth.com/what-time-should-you-go-to-sleep-4588298
 https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits
+https://www.amazon.com/Bellabeat-Urban-Jewelry-Health-Tracker/dp/B01LB4EUGS/ref=sr_1_3?crid=25JZGJLDK2VEZ&keywords=bellabeat%2Bivy&qid=1705515233&sprefix=bellabeat%2Bivy%2Caps%2C107&sr=8-3&th=1
 
 
 ![Bellabeat11](https://github.com/NanManee/Bellabeat-Project/assets/156528525/d86662c0-675b-4de7-b14b-f9865bf056f8)
