@@ -280,7 +280,7 @@ https://ouraring.com/
 
 https://shopjoule.com/
 
-Photos from Bellabeat website
+Photos https://bellabeat.com/
 
 Photo https://www.wordfestival.org/suggestions
 
