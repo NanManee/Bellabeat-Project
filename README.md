@@ -58,7 +58,7 @@ weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_
     - Instead of "Fairly", it should changed to "Moderate".
     - Calories column is unclear either calories intake or calories burned.
     - All the columns with distance is not specific if the data are in miles, meters, or kilometers
-  - The number range in these columns are questionable:
+  - The number range in these columns are questionable, they all start with 0:
 
     - VeryActiveDistance       0 - 21.92
     - ModeratelyActiveDistance 0 - 6.48
@@ -224,7 +224,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 ### Limitations
 
 - Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
-- This ia a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
+- This is a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
 
 ### Insights
 
@@ -268,7 +268,7 @@ Note: Individual factors, such as starting weight and overall health, can influe
 
 - Future hypoallergenic products to consider include smart rings, smart earrings, and a watch version of the Ivy bracelet. As of now, BioSensive Technologies stands out for their product; Ear-O-Smart. It tracks active heart rate, active minutes, and calorie burn, but it does not track sleep. Another company, like Oura Ring, creates a smart ring that tracks heart rate, active minutes, women's health, and additionally, it tracks blood oxygen sensing (SpO2) when asleep and has illness detection to monitor body temperature and heart rate so users can tell when they may be getting sick sooner.
 
-- Opening new markets with a watch version of the Ivy bracelet to target new groups of customers, such as working women or young teen girls who want to look pretty with styled fitness jewelry that matches their outfits on a daily basis. It also provides choices for Bellabeat customers to choose between the Ivy bracelet or Ivy watch."
+- Expanding into new markets involves introducing a watch version of the Ivy bracelet, targeting new customer groups like working women or young teen girls who want to enhance their style with fitness jewelry that not only looks pretty but also functions well, matching their outfits on a daily basis. This expansion also provides Bellabeat customers with the option to choose between the Ivy bracelet and the Ivy watch.
 
 - Bellabeat has strong ideas of creating unique, beautiful, and hypoallergenic health tracker products that focus on women. I am positive Bellabeat has endless capabilities of creating new products that are beautiful and functional at the same time. I hope this study is helpful, thank you for your time reviewing.
 
