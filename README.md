@@ -240,15 +240,22 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 ### Recomendations
 
 - Bellabeat aims to enhance and update more features on the app. It's important to create a user-friendly app to connect with users.
+  
 - Encouraging users to stay active with the device's reminder feature. Instructing users about the health benefits of staying active is crucial. According to Medical News Today, walking 9,000 steps a day is likely to reduce the chance of dying early by 60%. For people walking 7,000 steps, the chances of cardiovascular disease are reduced by 51%.
+  
 - Creating an app that lets users connect and share their progress on their social media with friends. This would help inspire each other to stay active.
+  
 - Creating an app that provides great tips about healthy nutrition, exercise tips, positive mottos, or stories, and meditation progression.
+  
 - Creating more themes on the Bellabeat app so that users can enjoy using the app, with many themes to select from.
+  
 - An app that instructs and encourages users to get enough sleep. According to VeryWellHealth.com, not getting enough sleep is associated with depression, heart disease, obesity, weight gain, and other health issues. The recommended amount of sleep by age is as follows:
+  
   - Teenagers (14 to 17 years): Should average eight to 10 hours per day
   - Younger adults (18 to 25 years old): Should average seven to nine hours per day
   - Adults (26 to 64): Should average seven to nine hours per day
-  - Older adults (age 65 and over): Should average seven to eight hours per day
+  - Older adults (age 65 and over): Should average seven to eight hours per day  (I only select the age group 14-65 and over because of the potential Bellabeat users).
+    
 - An app that helps users plan for long-term health goals and breaks down goals for every three months or a monthly goal, depending on the user's focus and priorities in their life. Setting a healthy and realistic weight loss goal is crucial for long-term success. A common guideline is aiming for a weight loss of 1-2 pounds per week. For a year-long goal:
   - Level 1 Goal: Aim for a weight loss of 1 pound per week. Over the course of a year, this would amount to approximately 52 pounds.
   - Level 2 Goal: Aim for a weight loss of 1.5 pounds per week. Over the course of a year, this would amount to approximately 78 pounds.
@@ -270,11 +277,17 @@ Note: Individual factors, such as starting weight and overall health, can influe
 ### References and Links
 
 https://ouraring.com/
+
 https://shopjoule.com/
+
 Photos from Bellabeat website
+
 Photo https://www.wordfestival.org/suggestions
+
 https://www.verywellhealth.com/what-time-should-you-go-to-sleep-4588298
+
 https://www.medicalnewstoday.com/articles/do-you-really-need-to-walk-10000-steps-to-see-health-benefits
+
 https://www.amazon.com/Bellabeat-Urban-Jewelry-Health-Tracker/dp/B01LB4EUGS/ref=sr_1_3?crid=25JZGJLDK2VEZ&keywords=bellabeat%2Bivy&qid=1705515233&sprefix=bellabeat%2Bivy%2Caps%2C107&sr=8-3&th=1
 
 
