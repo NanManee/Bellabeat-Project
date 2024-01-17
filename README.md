@@ -152,7 +152,7 @@ n_distinct(weight$Id)
 ```
 
 ```r
--- Summary statistics, I have to exempt the weight dataframe because it does not have enough unique users for analysis
+-- Summary statistics, I have to exempt the weight dataframe because it has only 2 unique users for analysis while Activity and Sleep dataframes has 33 and 24 unique users.
 
 activity %>%
     select(TotalSteps, TotalDistance, SedentaryMinutes) %>%
