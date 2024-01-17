@@ -152,7 +152,7 @@ n_distinct(weight$Id)
 ```
 
 ```r
--- Summary statistics, exempt the weight dataframe because it does not have enough unigue users for analysis
+-- Summary statistics, I have to exempt the weight dataframe because it does not have enough unique users for analysis
 
 activity %>%
     select(TotalSteps, TotalDistance, SedentaryMinutes) %>%
@@ -173,9 +173,8 @@ summary(merged_data)
 
 ### Limitations
 
-- This ia a 2016 Fitbit dataset which is not up to date. It's chalenging to give a beneficial insights and recommendations.
-- Many file tables don't have enough data for the analysis.
-- 
+- This ia a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
+- Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
 
 ```r
 -- Create Data Visualization
@@ -236,7 +235,9 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 - The majority of Fitbit users have an average sleep duration of 419 minutes, or around 7 hours per night.
 
 ### suggestions
+- I had a chance to look up the reviews from the existing Bellabeat customers on Amazon website. It shows 1,758 global ratings with 44% customers love Bellabeat products and give it 5 stars, about 10% customers give it 4,3,and 2 stars. 21% customers are not happy with the products and give it 1 star [Click Here](https://www.amazon.com/Bellabeat-Urban-Jewelry-Health-Tracker/dp/B01LB4EUGS/ref=sr_1_1?crid=E6WXJ8R3CR9F&keywords=bellabeat&qid=1705504792&sprefix=bellabe%2Caps%2C104&sr=8-1&th=1) This is only one souce from Amazon, so it cannot replesent as a whole. This is just some ideas that Bellabeat may need to evaluate the product quality.  improve and ensure the future happy customers.
 
+- 
 - I would recommend to Bellabeat to update friendly user Bellabeat app to connect with the users. Giving great tips about helthy nutrition food, exercise tips,
 - App that help users plan for a log term goal health and breakdown for every three month or a moth goal depending on what are the users focus on and what are priority in thier life. For example, there's a feature and funtion for users who want to lose weight set thier  a year goal for losie 30
 - 
