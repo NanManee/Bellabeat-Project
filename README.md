@@ -237,7 +237,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 
 ### Recomendations
 
-- Bellabeat aims to enhance and update more features on the app. It's important to create a user-friendly app to connect with users.
+- Bellabeat aims to enhance and update more features on the app. It's important to create a user-friendly app or a podcast to connect with users. Live chat customer support is also great for addressing issues that customers have.
   
 - Encouraging users to stay active with the device's reminder feature. Instructing users about the health benefits of staying active is crucial. According to Medical News Today, walking 9,000 steps a day is likely to reduce the chance of dying early by 60%. For people walking 7,000 steps, the chances of cardiovascular disease are reduced by 51%.
   
