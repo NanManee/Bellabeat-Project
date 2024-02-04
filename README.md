@@ -224,7 +224,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 ### Limitations
 
 - Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
-- This is a 2016 Fitbit dataset, which is not up to date. Therefore, it's chalenging to provide beneficial insights and recommendations.
+- This is a 2016 Fitbit dataset, which is not up to date. Therefore, it's challenging to provide beneficial insights and recommendations.
 
 ### Insights
 
