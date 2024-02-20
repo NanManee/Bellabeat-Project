@@ -255,10 +255,10 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
   - Level 3 Goal: Aim for a weight loss of 2 pounds per week. Over the course of a year, this would amount to approximately 104 pounds.
 Note: Individual factors, such as starting weight and overall health, can influence weight loss. Individuals should consult with a doctor before starting any weight loss plan to ensure it is safe. Focusing on overall health, including a balanced diet and regular physical activity, is essential for sustainable weight management.
 
-- Available 24/7 Live chat customer support to address issues that customers have.
-- Partnering with a YouTube health and fitness influencer can be a powerful way to increase product awareness among your target audience. Work closely with the influencer to create engaging content that showcases your product in an authentic and appealing way. Encourage them to share personal stories or experiences related to your product to resonate with their audience
-- Run Paid Advertising Campaigns: Allocate a portion of your marketing budget to run targeted advertising campaigns on social media platforms. Utilize features like sponsored posts, influencer collaborations, and targeted ads to reach potential customers interested in health and fitness.
-- Engage with Fitness Events: Sponsor or participate in fitness events throughout the year to further establish your brand presence in the health and fitness community. Set up booths, offer product demonstrations, and engage with attendees to create memorable experiences.
+- Available 24/7 Live chat customer support to address issues that users have.
+- Partnering with a YouTube health and fitness influencer can be a powerful way to increase product awareness among Bellabeat target audience. Work closely with the influencer to create engaging content that showcases Bellabeat product in an authentic and appealing way. Encourage them to share personal stories or experiences related to Bellabeat product to resonate with their audience.
+- Run Paid Advertising Campaigns: Allocate a portion of Bellabeat marketing budget to run targeted advertising campaigns on social media platforms. Utilize features like sponsored posts, influencer collaborations, and targeted ads to reach potential customers interested in health and fitness.
+- Engage with Fitness Events: Sponsor or participate in fitness events throughout the year to further establish Bellabeat brand presence in the health and fitness community. Set up booths, offer product demonstrations, and engage with attendees to create memorable experiences.
 
 ![Bellabeat12](https://github.com/NanManee/Bellabeat-Project/assets/156528525/e33dbed6-5772-45b2-87d1-51cb0c1c0a0e)
 
