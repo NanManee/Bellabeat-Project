@@ -38,6 +38,7 @@ library(skimr)
 library(ggplot2)
 library(tidyr)
 ```
+![bb1](https://github.com/NanManee/Bellabeat-Project/assets/156528525/15e26c12-3cd2-413f-9166-6b06b8d3f53d)
 
 ### Import and name the dataframes
 
@@ -48,6 +49,17 @@ sleep <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/sleepDay_merged
 
 weight <- read.csv("../input/fitbit/Fitabase Data 4.12.16-5.12.16/weightLogInfo_merged.csv")
 ```
+
+### Preview the dataframes and identify all the columns
+```r
+head(activity)
+head(sleep)
+head(weight)
+```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/fa5cc769-ab94-43b0-a5a1-6a95f2478455)
+
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/eca1ed5a-1fa2-4fa1-bdc7-ccdbc0e06c4a)
+
 
 ### Key Takeaways from review the dataframes
 
@@ -134,6 +146,8 @@ clean_names(activity)
 clean_names(sleep)
 clean_names(weight)
 ```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/c72fe447-d3c7-4461-a27e-c68c5497fca8)
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/44ba53af-49ab-462f-8bac-016dd8de2b21)
 
 ```r
 
@@ -142,6 +156,7 @@ clean_names(weight)
 activity = select(activity, -5) 
 colnames(activity)
 ```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/b35766f2-d86d-4a2f-b80b-2926888f655e)
 
 ```r
 -- To check for how may unique users or Fitbit participants on each dataframe
@@ -150,6 +165,7 @@ n_distinct(activity$Id)
 n_distinct(sleep$Id)
 n_distinct(weight$Id)
 ```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/7014fade-e217-4bfa-a663-618e49743152)
 
 ```r
 -- Summary statistics, I have to exempt the weight dataframe because it has only 2 unique users for analysis while Activity and Sleep dataframes has 33 and 24 unique users.
@@ -162,6 +178,7 @@ sleep %>%
     select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
     summary()
 ```
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/71778ad1-46da-4774-804f-1c51d1cd615e)
 
 ```r
 -- Combine two dataframes into one (activity and sleep dataframes)
