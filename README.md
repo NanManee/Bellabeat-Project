@@ -148,6 +148,7 @@ clean_names(weight)
 ```
 ![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/c72fe447-d3c7-4461-a27e-c68c5497fca8)
 ![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/44ba53af-49ab-462f-8bac-016dd8de2b21)
+![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/48648eb9-a301-4908-ada5-db99c8dfa894)
 
 ```r
 
