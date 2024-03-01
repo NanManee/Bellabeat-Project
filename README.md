@@ -160,7 +160,7 @@ colnames(activity)
 ![image](https://github.com/NanManee/Bellabeat-Project/assets/156528525/b35766f2-d86d-4a2f-b80b-2926888f655e)
 
 ```r
--- To check for how may unique users or Fitbit participants on each dataframe
+-- Check for how many unique users or Fitbit participants on each dataframe
 
 n_distinct(activity$Id)
 n_distinct(sleep$Id)
@@ -242,7 +242,7 @@ ggplot(data = merged_data, aes(ActivityDate, SedentaryMinutes))+
 ### Limitations
 
 - Many file tables do not have enough data for the analysis. I have to exempt the weight dataframe because it does not have enough unique users for analysis.
-- This is a 2016 Fitbit dataset for this capstone, it is not up to date. Therefore, it's challenging to provide beneficial insights and recommendations.
+- This is a 2016 Fitbit dataset for this project, it is not up to date. Therefore, it's challenging to provide beneficial insights and recommendations.
 
 ### Insights
 
